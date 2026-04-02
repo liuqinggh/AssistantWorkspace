@@ -12,6 +12,9 @@ logs/*.log
 *.backup
 *~
 
+# 备份文件区（通常不跟踪）
+backups/
+
 # 可选：如果不想同步 raw 文件
 # raw/
 
