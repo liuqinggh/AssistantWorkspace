@@ -1,0 +1,16 @@
+{
+  "hooks": {
+    "Stop": [
+      {
+        "type": "command",
+        "command": "python .claude/hooks/auto_save_and_summarize.py"
+      }
+    ],
+    "UserPromptSubmit": [
+      {
+        "type": "command",
+        "command": "python .claude/hooks/inject_context.py"
+      }
+    ]
+  }
+}
